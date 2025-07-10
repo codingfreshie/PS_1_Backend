@@ -1,0 +1,44 @@
+############################
+# Visual Studio
+############################
+.vscode/
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+############################
+# Build results
+############################
+bin/
+obj/
+out/
+
+############################
+# NuGet
+############################
+*.nupkg
+*.snupkg
+packages/
+
+############################
+# ASP.NET Core / Secrets
+############################
+secrets.json
+*.log
+
+# Optional config files
+appsettings.Development.json
+appsettings.Local.json
+
+# Uncomment the next line ONLY if you don't want to upload the main config:
+# appsettings.json
+
+############################
+# Others
+############################
+*.dbmdl
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db

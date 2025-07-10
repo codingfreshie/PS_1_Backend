@@ -1,5 +1,5 @@
-
-## ?? Tech Stack
+﻿
+##  Tech Stack
 
 - ASP.NET Core 8
 - Entity Framework Core
@@ -9,9 +9,9 @@
 
 ---
 
-## ??? Getting Started
+##  Getting Started
 
-### ?? Prerequisites
+###  Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server)
@@ -19,7 +19,7 @@
 
 ---
 
-### ?? Running the API Locally
+###  Running the API Locally
 
 1. **Clone the repo:**
 
@@ -62,28 +62,28 @@ Navigate to:
 
 ---
 
-## ?? Project Structure
+##  Project Structure
 
 ```
-??? Controllers/
-?   ??? RegisterController.cs
-?   ??? LoginController.cs
-??? DTOs/
-?   ??? RegisterRequest.cs
-?   ??? LoginRequest.cs
-??? Models/
-?   ??? User.cs
-??? Data/
-?   ??? ApplicationDbContext.cs
-??? Migrations/
-??? appsettings.json
-??? Program.cs
-??? .gitignore
+├── Controllers/
+│   ├── RegisterController.cs
+│   └── LoginController.cs
+├── DTOs/
+│   ├── RegisterRequest.cs
+│   └── LoginRequest.cs
+├── Models/
+│   └── User.cs
+├── Data/
+│   └── ApplicationDbContext.cs
+├── Migrations/
+├── appsettings.json
+├── Program.cs
+└── .gitignore
 ```
 
 ---
 
-## ?? Adding a New Controller
+##  Adding a New Controller
 
 1. **Create the DTO if needed**  
    Add a new file in `DTOs/`, e.g., `MyFeatureRequest.cs`
@@ -113,10 +113,10 @@ dotnet build
 
 ---
 
-## ?? Tips
+##  Tips
 
 - Use `[HttpGet]`, `[HttpPost]`, etc. to define endpoints.
 - To add database interaction, inject `ApplicationDbContext`.
-- Don�t forget to register new services if needed in `Program.cs`.
+- Don’t forget to register new services if needed in `Program.cs`.
 
 

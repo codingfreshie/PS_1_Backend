@@ -24,4 +24,9 @@ public class User
 
     [Required]
     public string PhoneNumber { get; set; } = null!;
+    [Required]
+    public string District_Name { get; set; } = string.Empty;
+    [Required]
+
+    public string Block_Name { get; set; } = string.Empty;
 }

@@ -42,3 +42,9 @@ appsettings.Local.json
 *.tmp
 *.DS_Store
 Thumbs.db
+# .NET Core
+
+*.db
+*.userosscache
+*.sln.docstates
+appsettings.Production.json

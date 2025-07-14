@@ -1,0 +1,26 @@
+﻿-- Common CHO name
+DECLARE @CHOName NVARCHAR(100) = 'Dr. Meena';
+
+-- Insert data for HSC-1
+INSERT INTO CHO_Activities (HSc_List, Finanicial_Year_list, Financial_Month_List, ASHA, ANM, CHO)
+VALUES
+('HSC-1', '2023-2024', 'April', 'ASHA_A1', 'ANM_A1', @CHOName),
+('HSC-1', '2023-2024', 'April', 'ASHA_A2', 'ANM_A2', @CHOName),
+('HSC-1', '2023-2024', 'May',   'ASHA_B1', 'ANM_B1', @CHOName),
+('HSC-1', '2023-2024', 'May',   'ASHA_B2', 'ANM_B2', @CHOName),
+('HSC-1', '2024-2025', 'April', 'ASHA_C1', 'ANM_C1', @CHOName),
+('HSC-1', '2024-2025', 'April', 'ASHA_C2', 'ANM_C2', @CHOName),
+('HSC-1', '2024-2025', 'May',   'ASHA_D1', 'ANM_D1', @CHOName),
+('HSC-1', '2024-2025', 'May',   'ASHA_D2', 'ANM_D2', @CHOName);
+
+-- Insert data for HSC-2
+INSERT INTO CHO_Activities (HSc_List, Finanicial_Year_list, Financial_Month_List, ASHA, ANM, CHO)
+VALUES
+('HSC-2', '2023-2024', 'April', 'ASHA_E1', 'ANM_E1', @CHOName),
+('HSC-2', '2023-2024', 'April', 'ASHA_E2', 'ANM_E2', @CHOName),
+('HSC-2', '2023-2024', 'May',   'ASHA_F1', 'ANM_F1', @CHOName),
+('HSC-2', '2023-2024', 'May',   'ASHA_F2', 'ANM_F2', @CHOName),
+('HSC-2', '2024-2025', 'April', 'ASHA_G1', 'ANM_G1', @CHOName),
+('HSC-2', '2024-2025', 'April', 'ASHA_G2', 'ANM_G2', @CHOName),
+('HSC-2', '2024-2025', 'May',   'ASHA_H1', 'ANM_H1', @CHOName),
+('HSC-2', '2024-2025', 'May',   'ASHA_H2', 'ANM_H2', @CHOName);

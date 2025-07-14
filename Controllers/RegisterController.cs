@@ -27,7 +27,9 @@ public class RegisterController(ApplicationDbContext context) : ControllerBase
             FullName = request.FullName,
             Email = request.Email,
             Password = request.Password,
-            PhoneNumber = request.PhoneNumber
+            PhoneNumber = request.PhoneNumber,
+            District_Name = request.District_Name,
+            Block_Name = request.Block_Name,
         };
 
         _context.Users.Add(user);
